@@ -25,5 +25,11 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: '^-' }],
+    'global-require': 'off',
+    'react-native/no-raw-text': 'off',
+    'no-param-reassign': 'off',
+    'no-underscore-dangle': 'off',
+    camelcase: 'off',
   },
 };
